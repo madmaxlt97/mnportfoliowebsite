@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+}
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.intro-text {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 20px;
+  color: #d3cfcf;
+  max-width: 40vw;
+  padding-left: 0vw;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.img-container img {
+  width: 40vw;
+  height: auto;
+  border-radius: 8px;
+}
+main {
+  margin: 0;
+  padding: auto;
+  background: linear-gradient(135deg, #6e7f90, #3a4c5c);
+  padding-top: 5rem;
+  min-height: calc(100vh - 160px);
+}

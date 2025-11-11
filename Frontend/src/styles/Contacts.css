@@ -1,0 +1,68 @@
+.contacts-page-main {
+  background: linear-gradient(135deg, #f0f0f0, #d9d9d9);
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 2rem;
+}
+.socials a {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 768px) {
+  .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.socials a:hover .icon {
+  animation: shake 0.5s;
+}
+
+.fa-github {
+  color: #000;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+.fa-instagram {
+  color: #e1306c;
+}
+.fa-facebook {
+  color: #1877f2;
+}

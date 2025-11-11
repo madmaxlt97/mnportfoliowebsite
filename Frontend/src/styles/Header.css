@@ -1,0 +1,54 @@
+.header {
+  max-width: 100%;
+  background: linear-gradient(135deg, #4e4e4e, #676161);
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.container {
+  display: flex;
+  /*border: 2px solid red;*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftside img {
+  height: 50px;
+  margin: 5px;
+}
+
+.leftside .name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rightside .navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rightside .navbar a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+}
+.rightside button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+.rightside button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

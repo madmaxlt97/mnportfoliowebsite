@@ -1,0 +1,31 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.card {
+  max-width: 330px;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 37%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.info-block {
+  padding: 15px;
+}
+.card-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
