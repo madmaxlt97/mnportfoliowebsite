@@ -10,7 +10,9 @@ export default function Header() {
           <div className="img-container">
             <Link to="/"></Link>
           </div>
-          <div className="name">Max Nikolajev</div>
+          <button className="name" onClick={() => navigate("/")}>
+            Max Nikolajev
+          </button>
         </div>
         <div className="rightside">
           <div className="navbar">
