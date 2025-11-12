@@ -57,7 +57,17 @@
 }
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 100vw;
+    max-width: 100%;
+  }
+  .leftside .name {
+    font-size: 18px;
+  }
+  .rightside .navbar {
+    gap: 1px;
+  }
+  .header {
+    padding: 5px 2px;
+    margin: 0;
   }
   /*.rightside .navbar {
     flex-direction: column;
