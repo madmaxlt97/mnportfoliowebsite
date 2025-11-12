@@ -63,11 +63,17 @@
     font-size: 18px;
   }
   .rightside .navbar {
-    gap: 1px;
+    gap: 5px;
+    margin-right: 10px;
   }
   .header {
     padding: 5px 2px;
     margin: 0;
+  }
+  .rightside button {
+    margin-right: 0px;
+    padding: 2px 2px;
+    font-size: 10px;
   }
   /*.rightside .navbar {
     flex-direction: column;
