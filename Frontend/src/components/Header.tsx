@@ -11,7 +11,7 @@ export default function Header() {
             <Link to="/"></Link>
           </div>
           <button className="name" onClick={() => navigate("/")}>
-            Max Nikolajev
+            MAX NIKOLAJEV
           </button>
         </div>
         <div className="rightside">
