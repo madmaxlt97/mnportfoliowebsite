@@ -45,7 +45,7 @@ main {
   }
   main {
     padding-top: 1rem;
-    min-height: calc(100vh - 82px);
+    min-height: calc(100vh - 85px);
     overflow: hidden;
   }
 }
