@@ -23,7 +23,8 @@ const cards = [
     id: 3,
     image: ebs,
     title: "Explore Baltic States | TypeScript, React, CSS",
-    description: "Website about Baltic countries",
+    description:
+      "Website about Baltic countries with custom design and animations.",
     link: "https://explorebalticstates.com/",
   },
 ];

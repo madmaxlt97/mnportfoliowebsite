@@ -18,10 +18,13 @@
   border-top-right-radius: 10px;
 }
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 .info-block {
   padding: 15px;
+}
+.card-description {
+  font-size: 1.2rem;
 }
 .card-link {
   text-decoration: none;
