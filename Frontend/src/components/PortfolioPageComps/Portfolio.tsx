@@ -1,6 +1,6 @@
 import landing from "../../assets/PortfolioImg/landing.png";
 import finmavi from "../../assets/PortfolioImg/finmavi1.png";
-import calculator from "../../assets/PortfolioImg/calculator.png";
+import ebs from "../../assets/PortfolioImg/ebs1.png";
 import { Link } from "react-router-dom";
 
 const cards = [
@@ -21,10 +21,10 @@ const cards = [
   },
   {
     id: 3,
-    image: calculator,
-    title: "Calculator | Javascript, HTML, CSS",
-    description: "A simple calculator",
-    link: "https://github.com/madmaxlt97/mycalculator",
+    image: ebs,
+    title: "Explore Baltic States | TypeScript, React, CSS",
+    description: "Website about Baltic countries",
+    link: "https://explorebalticstates.com/",
   },
 ];
 
