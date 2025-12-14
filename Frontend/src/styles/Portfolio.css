@@ -9,16 +9,25 @@
   height: auto;
   border: 2px solid #000000;
   border-radius: 10px;
+  padding: 0.5rem;
+  background: #6e7f90;
 }
 .card img {
-  width: 100%;
+  /*width: 100%;
   height: auto;
   max-height: 37%;
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;*/
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .info-block {
   padding: 15px;
